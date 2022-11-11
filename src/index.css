@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Space+Mono&display=swap');
+
+.container1{
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  border: 1px solid;
+  border-radius: 10px;
+  /* padding: 10px; */
+  box-shadow: 5px 10px 18px red;
+  border-color: aqua;
+  
+}
+
+.Message{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.forgot{
+  text-decoration: none;
+  opacity: 50%;
+  color: rgb(0, 122, 253);
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.loginnow{
+  background: #027A95;
+  border: 1px;
+  border-radius: 11px;
+  padding: 15px 24px;
+  color: white;
+  font-family: 'Open Sans';
+  font-size: large;
+}
+
+.createacc{
+  background: #027A95;
+  border: 1px;
+  border-radius: 11px;
+  padding: 15px 24px;
+  color: white;
+  font-family: 'Open Sans';
+  font-size: large;
+}
+
+.welcome1{
+  font-family: 'Open Sans';
+  font-size: 50px;
+  font-weight: 800;
+  color: rgb(236, 75, 17);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.subtitle1{
+  font-family: 'Open Sans';
+  font-size: large;
+  font-weight: 500;
+}
+
+.img{
+  size: 50%;
+}
+
+.right1{
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Email{
+  width: 80%;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+.Password{
+  width: 80%;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+.img1{
+  height: 800px;
+  width: 800px;
+}
+
+.text1{
+  font-family: 'Open Sans';
+  font-weight: 500;
+}
