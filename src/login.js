@@ -40,7 +40,11 @@ const Login = () =>{
                     <input type="text" id="Password" className="Password"></input>
 
                 </motion.form>
-                <a href="#" className="forgot">Forgot Password!</a>
+                <motion.a href="#" className="forgot"
+                   initial = {{x : '100vw'}}
+                   animate = {{x : 0}}
+                   transition = {{type : 'tween', duration : 1.5 }}
+                >Forgot Password!</motion.a>
                 <motion.div className="buttons"
                    initial = {{y : '100vw'}}
                    animate = {{y : 0}}
