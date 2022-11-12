@@ -34,10 +34,14 @@ const Login = () =>{
                    transition = {{type : 'tween', duration : 1.5 }}
                 >
                     <label htmlFor="Email" className='text1'><h4>Enter Email Address: </h4></label>
-                    <input type="email" id="Email" className="Email"></input>
+                    <motion.input type="email" id="Email" className="Email"
+                       whileHover={{boxShadow : "0px 0px 8px rgb(0,0,0)"}}
+                    ></motion.input>
                     <br></br>
                     <label htmlFor="Password" className='text1'><h4>Enter Password: </h4></label>
-                    <input type="text" id="Password" className="Password"></input>
+                    <motion.input type="text" id="Password" className="Password"
+                       whileHover={{boxShadow : "0px 0px 8px rgb(0,0,0)"}}
+                    ></motion.input>
 
                 </motion.form>
                 <motion.a href="#" className="forgot"
